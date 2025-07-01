@@ -1,0 +1,13 @@
+{
+    "short_name": "pcz",
+    "name": "pine city zoo",
+    "icons": [
+        {
+            "src": "images/ic_launcher.png",
+            "sizes": "90x90",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "standalone"
+}

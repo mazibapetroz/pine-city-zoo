@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        id="com.itvarsity.pinecityzoo"
+        version="1.0.0"
+        android-versionCode="10">
+
+    <name>Pine City Zoo</name>
+    <description>Learn more about our Pine City Zoo map.</description>
+    <author href="https://itvarsity.co.za" email="info@itvarsity.co.za">IT Varsity</author>
+
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#ffffff" />
+    <preference name="StatusBarStyle" value="default" />
+
+    <!-- Plugins -->
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-statusbar" />
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-inappbrowser" />
+
+    <!-- Android-specific settings -->
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="24" />
+        <preference name="android-targetSdkVersion" value="34" />
+        <preference name="android-compileSdkVersion" value="34" />
+        <preference name="android-installLocation" value="auto" />
+        <preference name="AndroidXEnabled" value="true" />
+    </platform>
+</widget>
+
